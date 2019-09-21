@@ -19,7 +19,7 @@ steps:
 - name: Newrelic - Push Deployment
   image: cityfurniture/drone-newrelic-deployment
   settings:
-    app_id: 6741789139
-    api_key: e7dgij5k8uejc57aafeaug2n3fdi8q
-    user: Drone CI
+    app_id: YOUR_APP_ID
+    api_key: YOUR_API_KEY
+    user: USER_TO_SHOW_IN_NEWRELIC
 ```
