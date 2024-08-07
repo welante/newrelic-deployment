@@ -1,4 +1,4 @@
-Write your plugin documentation here.
+Create deployment with DRONE_TAG as "revision".
 
 The following parameters are used to configuration the plugin's behavior:
 
@@ -15,8 +15,8 @@ name: newrelic-deployment
 
 steps:
 - name: Newrelic - Push Deployment
-  image: cityfurniture/drone-newrelic-deployment
+  image: welante/drone-newrelic-deployment
   settings:
-    app_id: YOUR_APP_ID
-    api_key: YOUR_API_KEY
+    app_id: NEWRELIC_APP_ID
+    api_key: NEWRELIC_API_KEY
 ```

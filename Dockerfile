@@ -1,9 +1,7 @@
 # Newrelic - Deployment Record
 #
-#     docker build --rm=true -t CityFurniture/newrelic-deployment .
+#     docker build --rm -t welante/newrelic-deployment .
 FROM mhart/alpine-node:10
-MAINTAINER Rabea Abdelwahab <rabeea@city-furniture.com>
-
 
 WORKDIR /drone/src
 
