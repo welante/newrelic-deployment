@@ -20,3 +20,11 @@ steps:
     app_id: NEWRELIC_APP_ID
     api_key: NEWRELIC_API_KEY
 ```
+
+Push to docker hub
+```
+docker build -t welante/newrelic-deployment:v0.0.1 .
+docker tag welante/newrelic-deployment:v0.0.1 welante/newrelic-deployment:latest
+docker push welante/newrelic-deployment:v0.0.1
+docker push welante/newrelic-deployment:latest
+```
