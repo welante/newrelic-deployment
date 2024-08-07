@@ -1,10 +1,10 @@
 # Newrelic - Deployment Record
 #
-#     docker build --rm -t welante/newrelic-deployment .
-FROM mhart/alpine-node:10
+#     docker build -t welante/newrelic-deployment .
+FROM node:alpine3.20
 
-WORKDIR /drone/src
+WORKDIR /src
 
-COPY plugin /drone/src
+COPY . .
 
-CMD ["node","plugin/index.js"]
+CMD ["node", "index.js"]

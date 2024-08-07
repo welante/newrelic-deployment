@@ -1,6 +1,6 @@
 {
   "name": "newrelic-deployment",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Drone CI - Newrelic Deployment",
   "main": "plugin/index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CityFurniture/newrelic-deployment.git"
+    "url": "git+https://github.com/welante/newrelic-deployment.git"
   },
   "author": "Rabea Abdelwahab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CityFurniture/newrelic-deployment/issues"
+    "url": "https://github.com/welante/newrelic-deployment/issues"
   },
-  "homepage": "https://github.com/CityFurniture/newrelic-deployment#readme"
+  "homepage": "https://github.com/welante/newrelic-deployment#readme"
 }
